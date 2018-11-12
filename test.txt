@@ -1,1 +1,11 @@
-jello
+update file in Github.
+
+Not cloned
+ - git clone https://github.com/wut5238/Project_PSIT.git
+
+already clone
+ - git pull
+ - edit
+ - git add . or git add file.
+ - git commit -m "text"
+ - git push
