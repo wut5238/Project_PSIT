@@ -1,6 +1,6 @@
 import pandas as pd
 import csv
-import matplotlib.pyplot as pt
+#import matplotlib.pyplot as pt
 from itertools import groupby
 
 """
@@ -14,7 +14,7 @@ df = pd.read_csv('norway_new_car_sales_by_make.csv')
 data = df.groupby(['Year', 'Make'])#คำสั่งgroupby แยกปีและรุ่น
 
 for i in data:
-    print(i)
+	print((sum(i['Year']=='2007',i['Make']=='Toyata')).Quantity)
 print(sum(data.get_group((2007, 'Toyota')).Quantity))  # บวกยอดขายรถรุ่นToyota ปี 2007 ได้แล้วโว้ยยยย
                                                         # ใน get_group ให้กำหนดปีและรุ่นที่ต้องการ
 

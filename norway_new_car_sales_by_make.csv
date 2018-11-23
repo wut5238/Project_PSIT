@@ -36,7 +36,6 @@ Year,Month,Make,Quantity
 2007,1,Think,2
 2007,1,Smart,1
 2007,1,Ssangyong,1
-2007,1,NA,1
 2007,2,Toyota,1885
 2007,2,Volkswagen,1517
 2007,2,Ford,686
@@ -111,7 +110,6 @@ Year,Month,Make,Quantity
 2007,3,Cadillac,4
 2007,3,Chrysler,3
 2007,3,Nilsson,1
-2007,3,NA,1
 2007,3,Aston Martin,1
 2007,4,Toyota,1300
 2007,4,Volkswagen,1257
@@ -264,7 +262,6 @@ Year,Month,Make,Quantity
 2007,7,Aston Martin,3
 2007,7,Ssangyong,1
 2007,7,Nilsson,1
-2007,7,NA,1
 2007,8,Toyota,1783
 2007,8,Volkswagen,1665
 2007,8,Ford,816
@@ -418,7 +415,6 @@ Year,Month,Make,Quantity
 2007,11,Porsche,3
 2007,11,Ssangyong,3
 2007,11,Smart,2
-2007,11,NA,1
 2007,11,Maserati,1
 2007,12,Volkswagen,1272
 2007,12,Toyota,1081
@@ -1255,7 +1251,6 @@ Year,Month,Make,Quantity
 2009,9,Smart,9
 2009,9,Jaguar,7
 2009,9,Porsche,5
-2009,9,NA,4
 2009,9,Daihatsu,3
 2009,9,Chrysler,3
 2009,9,Alfa Romeo,1
@@ -1293,7 +1288,6 @@ Year,Month,Make,Quantity
 2009,10,Land Rover,6
 2009,10,Porsche,5
 2009,10,Daihatsu,4
-2009,10,NA,4
 2009,10,Tesla,4
 2009,10,Smart,3
 2009,10,Lancia,2
@@ -2398,7 +2392,6 @@ Year,Month,Make,Quantity
 2012,4,Morgan,1
 2012,4,Aston Martin,1
 2012,4,Dacia,1
-2012,4,NA,1
 2012,5,Volkswagen,1712
 2012,5,Toyota,1508
 2012,5,Volvo,1099
@@ -2477,7 +2470,6 @@ Year,Month,Make,Quantity
 2012,6,Morgan,1
 2012,6,Dacia,1
 2012,6,Iveco,1
-2012,6,NA,1
 2012,6,Isuzu,1
 2012,7,Volkswagen,2031
 2012,7,Toyota,1342
@@ -2516,7 +2508,6 @@ Year,Month,Make,Quantity
 2012,7,Think,1
 2012,7,Fisker,1
 2012,7,Aston Martin,1
-2012,7,NA,1
 2012,8,Volkswagen,1873
 2012,8,Toyota,1547
 2012,8,Ford,911
@@ -3012,7 +3003,6 @@ Year,Month,Make,Quantity
 2013,9,Jaguar,1
 2013,9,Ssangyong,1
 2013,9,Tazzari,1
-2013,9,NA,1
 2013,10,Toyota,1890
 2013,10,Volkswagen,1550
 2013,10,Volvo,1147
