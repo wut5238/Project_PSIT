@@ -197,3 +197,15 @@ def year_2016():
     top_10 = total[0:10]
     top_10_2016 = [(lst[i], i) for i in top_10]
     return top_10_2016
+
+import matplotlib.pyplot as plt #import module สำหรับสร้างกราฟ
+import csv
+import sys
+from matplotlib.ticker import FuncFormatter
+
+
+csvwriter = csv.writer(open("new.csv", "w+")) 
+a = year_2016()
+for row in a:
+	csvwriter.writerow((row))
+
