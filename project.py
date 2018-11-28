@@ -198,14 +198,108 @@ def year_2016():
     top_10_2016 = [(lst[i], i) for i in top_10]
     return top_10_2016
 
-import matplotlib.pyplot as plt #import module สำหรับสร้างกราฟ
-import csv
-import sys
-from matplotlib.ticker import FuncFormatter
+import matplotlib.pyplot as plt 
+def allgraph():
+	'''เรียกใช้ฟังชั่นพล็อตกราฟของทุกปี'''
+	graph_2007()
+	graph_2008()
+	graph_2009()
+	graph_2010()
+	graph_2011()
+	graph_2012()
+	graph_2013()
+	graph_2014()
+	graph_2015()
+	graph_2016()
 
+def graph_2007():
+	'''ฟังชั่นพล็อตกราฟท็อป10ปี2007'''
+	top_10_2007 = year_2007()
+	x_val = [x[0] for x in top_10_2007]
+    y_val = [x[1] for x in top_10_2007]
+    plt.plot(x_val,y_val)
+    plt.plot(x_val,y_val,'or')
+    plt.show()
 
-csvwriter = csv.writer(open("new.csv", "w+")) 
-a = year_2016()
-for row in a:
-	csvwriter.writerow((row))
+def graph_2008():
+	'''ฟังชั่นพล็อตกราฟท็อป10ปี2008'''
+	top_10_2008 = year_2008()
+	x_val = [x[0] for x in top_10_2008]
+    y_val = [x[1] for x in top_10_2008]
+    plt.plot(x_val,y_val)
+    plt.plot(x_val,y_val,'or')
+    plt.show()
 
+def graph_2009():
+	'''ฟังชั่นพล็อตกราฟท็อป10ปี2009'''
+	top_10_2009 = year_2009()
+	x_val = [x[0] for x in top_10_2009]
+    y_val = [x[1] for x in top_10_2009]
+    plt.plot(x_val,y_val)
+    plt.plot(x_val,y_val,'or')
+    plt.show()
+
+def graph_2010():
+	'''ฟังชั่นพล็อตกราฟท็อป10ปี2010'''
+	top_10_2010 = year_2010()
+	x_val = [x[0] for x in top_10_2010]
+    y_val = [x[1] for x in top_10_2010]
+    plt.plot(x_val,y_val)
+    plt.plot(x_val,y_val,'or')
+    plt.show()
+
+def graph_2011():
+	'''ฟังชั่นพล็อตกราฟท็อป10ปี2011'''
+	top_10_2011 = year_2011()
+	x_val = [x[0] for x in top_10_2011]
+    y_val = [x[1] for x in top_10_2011]
+    plt.plot(x_val,y_val)
+    plt.plot(x_val,y_val,'or')
+    plt.show()
+
+def graph_2012():
+	'''ฟังชั่นพล็อตกราฟท็อป10ปี2012'''
+	top_10_2012 = year_2012()
+	x_val = [x[0] for x in top_10_2012]
+    y_val = [x[1] for x in top_10_2012]
+    plt.plot(x_val,y_val)
+    plt.plot(x_val,y_val,'or')
+    plt.show()
+
+def graph_2013():
+	'''ฟังชั่นพล็อตกราฟท็อป10ปี2013'''
+	top_10_2013 = year_2013()
+	x_val = [x[0] for x in top_10_2013]
+    y_val = [x[1] for x in top_10_2013]
+    plt.plot(x_val,y_val)
+    plt.plot(x_val,y_val,'or')
+    plt.show()
+
+def graph_2014():
+	'''ฟังชั่นพล็อตกราฟท็อป10ปี2014'''
+	top_10_2014 = year_2014()
+	x_val = [x[0] for x in top_10_2014]
+    y_val = [x[1] for x in top_10_2014]
+    plt.plot(x_val,y_val)
+    plt.plot(x_val,y_val,'or')
+    plt.show()
+
+def graph_2015():
+	'''ฟังชั่นพล็อตกราฟท็อป10ปี2015'''
+	top_10_2015 = year_2015()
+	x_val = [x[0] for x in top_10_2015]
+    y_val = [x[1] for x in top_10_2015]
+    plt.plot(x_val,y_val)
+    plt.plot(x_val,y_val,'or')
+    plt.show()
+
+def graph_2016():
+	'''ฟังชั่นพล็อตกราฟท็อป10ปี2016'''
+	top_10_2016 = year_2016()
+	x_val = [x[0] for x in top_10_2016]
+    y_val = [x[1] for x in top_10_2016]
+    plt.plot(x_val,y_val)
+    plt.plot(x_val,y_val,'or')
+    plt.show()
+
+allgraph()
