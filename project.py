@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 
 """
 Car Sales in Norway Analysis
@@ -198,7 +199,7 @@ def year_2016():
     top_10_2016 = [(lst[i], i) for i in top_10]
     return top_10_2016
 
-import matplotlib.pyplot as plt
+#plot graph
 def allgraph():
 	'''เรียกใช้ฟังชั่นพล็อตกราฟของทุกปี'''
 	graph_2007()
