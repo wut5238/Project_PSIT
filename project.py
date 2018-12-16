@@ -199,12 +199,8 @@ def year_2016():
     top_10_2016 = [(lst[i], i) for i in top_10]
     return top_10_2016
 
-<<<<<<< HEAD
-import matplotlib.pyplot as plt
-
-=======
 #plot graph
->>>>>>> 14ab4817845e395323ee4c56cd61075bf6e7e1a3
+
 def allgraph():
     '''เรียกใช้ฟังชั่นพล็อตกราฟของทุกปี'''
     graph_2007()
