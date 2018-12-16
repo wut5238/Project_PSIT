@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 
 """
 Car Sales in Norway Analysis
@@ -198,8 +199,12 @@ def year_2016():
     top_10_2016 = [(lst[i], i) for i in top_10]
     return top_10_2016
 
+<<<<<<< HEAD
 import matplotlib.pyplot as plt
 
+=======
+#plot graph
+>>>>>>> 14ab4817845e395323ee4c56cd61075bf6e7e1a3
 def allgraph():
     '''เรียกใช้ฟังชั่นพล็อตกราฟของทุกปี'''
     graph_2007()
@@ -218,8 +223,8 @@ def graph_2007():
     top_10_2007 = year_2007()
     x_val = [x[0] for x in top_10_2007]
     y_val = [x[1] for x in top_10_2007]
-    plt.plot(x_val,y_val)
-    plt.plot(x_val,y_val,'or')
+    plt.bar(x_val, y_val, color='red')
+    plt.title('Top 10 Year 2007', color='green')
     plt.show()
 
 def graph_2008():
@@ -227,8 +232,8 @@ def graph_2008():
     top_10_2008 = year_2008()
     x_val = [x[0] for x in top_10_2008]
     y_val = [x[1] for x in top_10_2008]
-    plt.plot(x_val,y_val)
-    plt.plot(x_val,y_val,'or')
+    plt.bar(x_val, y_val, color='red')
+    plt.title('Top 10 Year 2008', color='green')
     plt.show()
 
 def graph_2009():
@@ -236,8 +241,8 @@ def graph_2009():
     top_10_2009 = year_2009()
     x_val = [x[0] for x in top_10_2009]
     y_val = [x[1] for x in top_10_2009]
-    plt.plot(x_val,y_val)
-    plt.plot(x_val,y_val,'or')
+    plt.bar(x_val, y_val, color='red')
+    plt.title('Top 10 Year 2009', color='green')
     plt.show()
 
 def graph_2010():
@@ -245,8 +250,8 @@ def graph_2010():
     top_10_2010 = year_2010()
     x_val = [x[0] for x in top_10_2010]
     y_val = [x[1] for x in top_10_2010]
-    plt.plot(x_val,y_val)
-    plt.plot(x_val,y_val,'or')
+    plt.bar(x_val, y_val, color='red')
+    plt.title('Top 10 Year 2010', color='green')
     plt.show()
 
 def graph_2011():
@@ -254,8 +259,8 @@ def graph_2011():
     top_10_2011 = year_2011()
     x_val = [x[0] for x in top_10_2011]
     y_val = [x[1] for x in top_10_2011]
-    plt.plot(x_val,y_val)
-    plt.plot(x_val,y_val,'or')
+    plt.bar(x_val, y_val, color='red')
+    plt.title('Top 10 Year 2011', color='green')
     plt.show()
 
 def graph_2012():
@@ -263,8 +268,8 @@ def graph_2012():
     top_10_2012 = year_2012()
     x_val = [x[0] for x in top_10_2012]
     y_val = [x[1] for x in top_10_2012]
-    plt.plot(x_val,y_val)
-    plt.plot(x_val,y_val,'or')
+    plt.bar(x_val, y_val, color='red')
+    plt.title('Top 10 Year 2012', color='green')
     plt.show()
 
 def graph_2013():
@@ -272,8 +277,8 @@ def graph_2013():
     top_10_2013 = year_2013()
     x_val = [x[0] for x in top_10_2013]
     y_val = [x[1] for x in top_10_2013]
-    plt.plot(x_val,y_val)
-    plt.plot(x_val,y_val,'or')
+    plt.bar(x_val, y_val, color='red')
+    plt.title('Top 10 Year 2013', color='green')
     plt.show()
 
 def graph_2014():
@@ -281,8 +286,8 @@ def graph_2014():
     top_10_2014 = year_2014()
     x_val = [x[0] for x in top_10_2014]
     y_val = [x[1] for x in top_10_2014]
-    plt.plot(x_val,y_val)
-    plt.plot(x_val,y_val,'or')
+    plt.bar(x_val, y_val, color='red')
+    plt.title('Top 10 Year 2014', color='green')
     plt.show()
 
 def graph_2015():
@@ -290,8 +295,8 @@ def graph_2015():
     top_10_2015 = year_2015()
     x_val = [x[0] for x in top_10_2015]
     y_val = [x[1] for x in top_10_2015]
-    plt.plot(x_val,y_val)
-    plt.plot(x_val,y_val,'or')
+    plt.bar(x_val, y_val, color='red')
+    plt.title('Top 10 Year 2015', color='green')
     plt.show()
 
 def graph_2016():
@@ -299,8 +304,8 @@ def graph_2016():
     top_10_2016 = year_2016()
     x_val = [x[0] for x in top_10_2016]
     y_val = [x[1] for x in top_10_2016]
-    plt.plot(x_val,y_val)
-    plt.plot(x_val,y_val,'or')
+    plt.bar(x_val, y_val, color='red')
+    plt.title('Top 10 Year 2016', color='green')
     plt.show()
 
 allgraph()
